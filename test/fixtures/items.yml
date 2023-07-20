@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  collection_type: MyString
+  price: 1
+  date_added: 2021-05-11
+
+two:
+  name: MyString
+  collection_type: MyString
+  price: 1
+  date_added: 2021-05-11

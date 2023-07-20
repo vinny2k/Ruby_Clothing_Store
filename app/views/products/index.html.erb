@@ -1,0 +1,16 @@
+<h2>
+    <%= link_to "Categories",  categories_path %>/
+    <%= @category.title %>/
+    Products
+</h2>
+
+<ol>
+    <% @products.each do |product| %>
+    <li>
+      <%= image_tag product.title + ".jpg", alt: product.title, id: "product_image" %>
+        <%=link_to savelist_text, savelist_update_path(:product_id => product.id), id: 'savelist_link', remote: true %>
+      
+        <%end%>
+    </li>
+    
+</ol>

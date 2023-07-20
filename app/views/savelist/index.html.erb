@@ -1,0 +1,4 @@
+<h1>Save List</h1>
+<% current_or_guest_user.savelists.each do |savelist| %>
+<%= link_to savelist.product.title,  product_description_index_path(savelist.product.id) %></br>
+<%end%>

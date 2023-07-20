@@ -1,0 +1,5 @@
+<h1>Cart</h1> <%=link_to "Checkout",  description_checkout_path %>
+<% @item.each do |item| %>
+<h3><%=item.product%> (<%=item.quantity%>) Size: <%=item.size%> Colour: <%=item.colour%>  $<%=item.price%></h3> 
+
+<%end%>

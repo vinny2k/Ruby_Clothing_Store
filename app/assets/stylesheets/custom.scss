@@ -1,0 +1,67 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.center h1 {
+  margin-bottom: 12px;
+}
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+#logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  float: left;
+  margin-right: 10px;
+  padding-top: 9px;
+  font-size: 2.2em;
+  color: #fff;
+}
+header{
+  overflow: hidden;
+  position: fixed;
+}
+
+body {
+  padding-top:42px;
+}
+footer {
+  margin-top: 45px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  height: 3rem;  
+}
+footer a {
+  color: #555;
+}
+footer a:hover {
+  color: #222;
+}
+footer small {
+  float: left;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
